@@ -26,6 +26,10 @@ const data = [
 const listProductParent = document.querySelector('#list-product')
 
 for (let i = 0; i < data.length; i++) {
+    
+}
+
+data.forEach((value, i) => {
     const divParent = document.createElement('div')
     divParent.setAttribute('class', 'col-md-4 mt-3') 
     
@@ -41,10 +45,10 @@ for (let i = 0; i < data.length; i++) {
     cardBody.setAttribute('class', 'card-body')
 
     const cardTitle = document.createElement('h5')
-    cardTitle.textContent = data[i].title
+    cardTitle.textContent = value.title
 
     const cardText = document.createElement('p')
-    cardText.textContent = data[i].body
+    cardText.textContent = value.body
 
     const cardLink = document.createElement('a')
     cardLink.href = '#'
@@ -59,7 +63,7 @@ for (let i = 0; i < data.length; i++) {
     divParent.appendChild(cardBody)
 
     listProductParent.appendChild(divParent)
-}
+})
 
 
 
