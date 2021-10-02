@@ -21,6 +21,11 @@ const data = [
         title: 'title 3',
         body: 'lapdoawjdoawjdoajwodjawojdoawjdoajwdaw '
     },
+    {
+        title: 'title 3',
+        body: 'lapdoawjdoawjdoajwodjawojdoawjdoajwdaw '
+    }
+
 ]
 
 const listProductParent = document.querySelector('#list-product')
