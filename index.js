@@ -10,58 +10,65 @@ for (let index = 0; index < getImg.length; index++) {
 //insert product image
 const data = [
     {
-        title: 'title 1',
-        body: 'lapdoawjdoawjdoajwodjawojdoawjdoajwdaw '
+        title: 'Single Split',
+        link: 'pages/single_split/index.html',
+        img: 'single.png',
     },
     {
-        title: 'title 2',
-        body: 'lapdoawjdoawjdoajwodjawojdoawjdoajwdaw '
+        title: 'Multi Split',
+        link: '',
+        img: 'multi.png',
     },
     {
-        title: 'title 3',
-        body: 'lapdoawjdoawjdoajwodjawojdoawjdoajwdaw '
+        title: 'Air Purifier',
+        link: '',
+        img: 'air_purifier.png',
     },
     {
-        title: 'title 3',
-        body: 'lapdoawjdoawjdoajwodjawojdoawjdoajwdaw '
+        title: 'Sky Air',
+        link: '',
+        img: 'sky_air.png',
+    },
+    {
+        title: 'VRV',
+        link: '',
+        img: 'vrv.png',
+    },
+    {
+        title: 'Packaged Air Conditioner',
+        link: '',
+        img: 'packaged.png',
     }
 
 ]
 
 const listProductParent = document.querySelector('#list-product')
 
-for (let i = 0; i < data.length; i++) {
-    
-}
-
 data.forEach((value, i) => {
     const divParent = document.createElement('div')
-    divParent.setAttribute('class', 'col-md-4 mt-3') 
+    divParent.setAttribute('class', 'col-md-4 mt-3 border shadow') 
     
     const card = document.createElement('div')
     card.setAttribute('class', 'card')
     card.setAttribute('style', 'width: 18rem;')
 
     const img = document.createElement('img')
-    img.setAttribute('src', `img/${i+1}.jpg`)
+    img.setAttribute('src', `img/genre_img/${value.img}`)
     img.setAttribute('class', 'card-img-top')
+    img.setAttribute('style', 'width: 350px; height: 200px; object-fit: cover; object-position: center;')
 
     const cardBody = document.createElement('div')
-    cardBody.setAttribute('class', 'card-body')
+    cardBody.setAttribute('class', 'card-body text-center')
 
     const cardTitle = document.createElement('h5')
     cardTitle.textContent = value.title
 
-    const cardText = document.createElement('p')
-    cardText.textContent = value.body
-
     const cardLink = document.createElement('a')
-    cardLink.href = '#'
+    cardLink.href = value.link
     cardLink.textContent = 'Cek Harga Product'
-    cardLink.setAttribute('class', 'btn btn-primary')
+    cardLink.setAttribute('class', 'btn btn-primary mb-3')
 
     cardBody.appendChild(cardTitle)
-    cardBody.appendChild(cardText)
     cardBody.appendChild(cardLink)
 
     divParent.appendChild(img)
