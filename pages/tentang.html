@@ -7,9 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <title>Single Pages</title>
+    <title>Halaman Index</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -21,7 +21,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="pages/single_split/index.html">Tentang</a>
+                <a class="nav-link" aria-current="page" href="/daikin_promotion/pages/single_split/index.html">Tentang</a>
               </li>
               <li class="nav-item">
                 <div class="dropdown nav-link">
@@ -29,7 +29,7 @@
                     Product
                   </p>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="index.html">Single Split</a></li>
+                    <li><a class="dropdown-item" href="/daikin_promotion/pages/single_split/index.html">Single Split</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">Multi Split</a></li>
                     <li><hr class="dropdown-divider"></li>
@@ -57,14 +57,31 @@
         <div class="container">
           <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
             <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-              <h1 class="display-4 fw-bold lh-1">Single Split</h1>
-              <p class="lead">Sistem tipe AC split Daikin memberikan performa yang baik, energi yang efisien dan kenyamanan dalam meyajikan solusi terbaik untuk tampilan rumah Anda. Jajaran produk tentunya minim pengeluaran dan efek terhadap lingkungan.</p>
+              <h1 class="display-4 fw-bold lh-1">Inovasi berarti peningkatan berkelanjutan</h1>
+              <p class="lead">Kami percaya bahwa selalu ada ruang untuk perbaikan. Dan kepercayaan ini adalah kekuatan pendorong di belakang semua yang kami lakukan di Daikin. Dari perbaikan kecil dalam proses produksi, hingga terobosan besar yang menghasilkan penghematan energi 70%, kami bertujuan untuk menginspirasi perubahan teknologi. Dengan Pusat Pengembangan Eropa kami sendiri, dan fokus pada produk hemat energi, kami menciptakan solusi iklim di Eropa untuk Eropa.</p>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <a href="https://daikin.newcreata.com/wp-content/uploads/2021/08/Revised-Katalog-DID-RA0518E-CS.pdf" class="btn btn-primary btn-lg px-4 me-md-2">Download Katalog</a>
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Tentang Kami</button>
               </div>
             </div>
             <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-              <img style="height: 400px; object-fit: cover; object-position: center;" src="../../img/single_split/hero.jpg" alt="">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/genre_img/1.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/genre_img/2.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
             </div>
           </div>
         </div>
@@ -72,20 +89,13 @@
       </section>
 
 
+      <!-- About  -->
       
       <!-- List Product -->
       <section id="product" id="product">
           <div class="container">
-            <h2 class="text-center"> <u>Premium Series</u></h2>
-            <div class="row justify-content-center my-5" id="list-product-premium">
-                
-            </div>
-            <h2 class="text-center"> <u>Inverter Series</u></h2>
-            <div class="row justify-content-center my-5" id="list-product-inverter">
-                
-            </div>
-            <h2 class="text-center"> <u>Non-Inverter Series</u></h2>
-            <div class="row justify-content-center" id="list-product-nonInverter">
+              <h2 class="text-center"> <u>List Product</u></h2>
+            <div class="row " id="list-product">
                 
             </div>
           </div>
