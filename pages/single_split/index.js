@@ -84,17 +84,17 @@ inverter.forEach((value, i) => {
 const nonInverter = [
     {
         title: 'Super Mini Split',
-        link: '',
+        link: '/daikin_promotion/pages/single_split/product/non_inverter/super.html',
         img: '../../img/single_split/non_inverter/super.png',
     },
     {
         title: 'Lite',
-        link: '',
+        link: '/daikin_promotion/pages/single_split/product/non_inverter/lite.html',
         img: '../../img/single_split/non_inverter/lite.png',
     },
     {
         title: 'Breeze',
-        link: '',
+        link: '/daikin_promotion/pages/single_split/product/non_inverter/breeze.html',
         img: '../../img/single_split/non_inverter/breeze.png',
 
     }
