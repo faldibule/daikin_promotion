@@ -36,7 +36,7 @@ const cardTemplate = (value, parent) =>{
 const premium = [
     {
         title: 'Urusara 7',
-        link: '/daikin-ac-terbaik/pages/single_split/product/premium/urusara7.html',
+        link: '/daikin_promotion/pages/single_split/product/premium/urusara7.html',
         img: '../../img/single_split/premium/urusara7.png',
     },
     {
