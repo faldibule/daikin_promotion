@@ -58,17 +58,17 @@ premium.forEach((value, i) => {
 const inverter = [
     {
         title: 'Premium Inverter',
-        link: '',
+        link: '/daikin_promotion/pages/single_split/product/inverter/premium.html',
         img: '../../img/single_split/inverter/premium.jpg',
     },
     {
         title: 'Star Inverter',
-        link: '',
+        link: '/daikin_promotion/pages/single_split/product/inverter/star.html',
         img: '../../img/single_split/inverter/star.png',
     },
     {
         title: 'Flash Inverter',
-        link: '',
+        link: '/daikin_promotion/pages/single_split/product/inverter/flash.html',
         img: '../../img/single_split/inverter/flash.png',
     }
 ]
