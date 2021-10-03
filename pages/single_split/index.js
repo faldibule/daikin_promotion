@@ -41,7 +41,7 @@ const premium = [
     },
     {
         title: 'Multi Split',
-        link: '',
+        link: '/daikin_promotion/pages/single_split/product/premium/euro.html',
         img: '../../img/single_split/premium/euro.png',
 
     }

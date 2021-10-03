@@ -11,7 +11,7 @@ for (let index = 0; index < getImg.length; index++) {
 const data = [
     {
         title: 'Single Split',
-        link: '/daikin_promotion/pages/single_split/product/premium/urusara7.html',
+        link: '/daikin_promotion/pages/single_split/index.html',
         img: 'single.png',
     },
     {
