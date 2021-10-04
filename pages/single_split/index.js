@@ -19,7 +19,7 @@ const cardTemplate = (value, parent) =>{
 
     const cardLink = document.createElement('a')
     cardLink.href = value.link
-    cardLink.textContent = 'Cek Harga Product'
+    cardLink.textContent = 'Cek Detail Product'
     cardLink.setAttribute('class', 'btn btn-primary mb-3')
 
     cardBody.appendChild(cardTitle)

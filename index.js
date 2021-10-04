@@ -16,7 +16,7 @@ const data = [
     },
     {
         title: 'Multi Split',
-        link: '',
+        link: '/daikin_promotion/pages/multi_split/index.html',
         img: 'multi.png',
     },
     {
