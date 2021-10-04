@@ -111,7 +111,7 @@ r32.forEach((value, i) => {
 const multi = [
     {
         title: 'Multi-S 2 Connection',
-        link: '/daikin_promotion/pages/multi_split/multi_s/multis3.html',
+        link: '/daikin_promotion/pages/multi_split/multi_s/multis2.html',
         img: '../../img/multi_split/multi/multi2.jpg',
     },
     {
