@@ -42,25 +42,25 @@ const hot = [
     {
         title: 'Wall Mounted Type',
         link: 'https://irp-cdn.multiscreensite.com/a94dfc3e/files/uploaded/CI190129017_files2019-01-29_13-36-58files.pdf.pdf',
-        img: '../../img/multi_split/hot/wall.PNG',
+        img: '../../img/multi_split/hot/wall.png',
 
     },
     {
         title: 'Duct Connected Type',
         link: 'https://irp-cdn.multiscreensite.com/a94dfc3e/files/uploaded/CI190129018_files2019-01-29_13-39-05files.pdf',
-        img: '../../img/multi_split/hot/duct.PNG',
+        img: '../../img/multi_split/hot/duct.png',
 
     },
     {
         title: 'Compact Multi-Flow Type',
         link: 'https://irp-cdn.multiscreensite.com/a94dfc3e/files/uploaded/CI190129012_files2019-01-29_13-35-51files.pdf',
-        img: '../../img/multi_split/hot/compact.PNG',
+        img: '../../img/multi_split/hot/compact.png',
 
     },
     {
         title: 'Outdoor Unit',
         link: 'https://irp-cdn.multiscreensite.com/a94dfc3e/files/uploaded/CI190129015_files2019-01-29_13-36-29files.pdf',
-        img: '../../img/multi_split/hot/outdoor.PNG',
+        img: '../../img/multi_split/hot/outdoor.png',
 
     },
 ]
@@ -77,18 +77,18 @@ const r32 = [
     {
         title: 'FTKJ-N Series',
         link: 'https://irp-cdn.multiscreensite.com/a94dfc3e/files/uploaded/CI190129001_files2019-01-29_11-42-44files.pdf',
-        img: '../../img/multi_split/r32/ftkj.PNG',
+        img: '../../img/multi_split/r32/ftkj.png',
     },
     {
         title: 'CTKM-P Series',
         link: 'https://irp-cdn.multiscreensite.com/a94dfc3e/files/uploaded/CI190129002_files2019-01-29_11-43-00files.pdf',
-        img: '../../img/multi_split/r32/ctkm.PNG',
+        img: '../../img/multi_split/r32/ctkm.png',
 
     },
     {
         title: 'Duct-Connected Type',
         link: 'https://irp-cdn.multiscreensite.com/a94dfc3e/files/uploaded/CI190129003_files2019-01-29_11-43-13files.pdf',
-        img: '../../img/multi_split/r32/duct.PNG',
+        img: '../../img/multi_split/r32/duct.png',
 
     },
     {
