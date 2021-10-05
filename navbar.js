@@ -45,19 +45,6 @@ const dropdown = (parent) =>{
     const sky_air = dropItem('Sky Air', '/daikin_promotion/pages/single_split/index.html')
     const vrv = dropItem('VRV', '/daikin_promotion/pages/single_split/index.html')
     const packaged = dropItem('Packaged Air Conditioner', '/daikin_promotion/pages/single_split/index.html')
-    
-
-    // ul.appendChild(single_split)
-    // ul.appendChild(li)
-    // ul.appendChild(multi_split)
-    // ul.appendChild(li)
-    // ul.appendChild(air_purifier)
-    // ul.appendChild(li)
-    // ul.appendChild(sky_air)
-    // ul.appendChild(li)
-    // ul.appendChild(vrv)
-    // ul.appendChild(li)
-    // ul.appendChild(packaged)
 
     ul.append(single_split, hr1, multi_split, hr2, air_purifier, hr3, sky_air, hr4, vrv, hr5, packaged)
 
@@ -83,7 +70,7 @@ container.setAttribute('class', 'container mt-3')
 
 const containerA = document.createElement('a')
 containerA.setAttribute('class', 'navbar-brand mb-3')
-containerA.setAttribute('href', '#')
+containerA.setAttribute('href', '/daikin_promotion')
 containerA.textContent = 'Daikin'
 
 const containerButton = document.createElement('button')
