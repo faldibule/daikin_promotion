@@ -42,7 +42,7 @@ const dropdown = (parent) =>{
     const single_split = dropItem('Single Split', '/daikin_promotion/pages/single_split/index.html')
     const multi_split = dropItem('Multi Split', '/daikin_promotion/pages/multi_split/index.html')
     const air_purifier = dropItem('Air Purifier', '/daikin_promotion/pages/air_purifier/index.html')
-    const sky_air = dropItem('Sky Air', '/daikin_promotion/pages/single_split/index.html')
+    const sky_air = dropItem('Sky Air', '/daikin_promotion/pages/sky_air/index.html')
     const vrv = dropItem('VRV', '/daikin_promotion/pages/single_split/index.html')
     const packaged = dropItem('Packaged Air Conditioner', '/daikin_promotion/pages/single_split/index.html')
 

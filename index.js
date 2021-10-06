@@ -21,12 +21,12 @@ const data = [
     },
     {
         title: 'Air Purifier',
-        link: '',
+        link: '/daikin_promotion/pages/air_purifier/index.html',
         img: 'air_purifier.png',
     },
     {
         title: 'Sky Air',
-        link: '',
+        link: '/daikin_promotion/pages/sky_air/index.html',
         img: 'sky_air.png',
     },
     {
