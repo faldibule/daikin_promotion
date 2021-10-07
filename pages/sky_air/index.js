@@ -39,37 +39,37 @@ const parentNonInverter = document.querySelector('#list-productNonInverter')
 const inverter = [
     {
         title: 'Ceiling Mounted Cassette Round Flow',
-        link: 'file:///C:/xampp/htdocs/job/daikin_promotion/pages/sky_air/inverter/flow.html',
+        link: '/daikin_promotion/pages/sky_air/inverter/flow.html',
         img: '../../img/sky_air/inverter/flow.png'
     },
     {
         title: 'Ceiling Mounted Slim Duct',
-        link: 'file:///C:/xampp/htdocs/job/daikin_promotion/pages/sky_air/inverter/slim_duct.html',
+        link: '/daikin_promotion/pages/sky_air/inverter/slim_duct.html',
         img: '../../img/sky_air/inverter/slim_duct.png'
     },
     {
         title: 'Ceiling Suspended',
-        link: 'file:///C:/xampp/htdocs/job/daikin_promotion/pages/sky_air/inverter/suspended.html',
+        link: '/daikin_promotion/pages/sky_air/inverter/suspended.html',
         img: '../../img/sky_air/inverter/suspended.png'
     },
     {
         title: 'Compact Multi Flow Cassette',
-        link: 'file:///C:/xampp/htdocs/job/daikin_promotion/pages/sky_air/inverter/compact.html',
+        link: '/daikin_promotion/pages/sky_air/inverter/compact.html',
         img: '../../img/sky_air/inverter/compact.png'
     },
     {
         title: 'Duct Connection Middle Static Pressure',
-        link: 'file:///C:/xampp/htdocs/job/daikin_promotion/pages/sky_air/inverter/middle.html',
+        link: '/daikin_promotion/pages/sky_air/inverter/middle.html',
         img: '../../img/sky_air/inverter/middle.png'
     },
     {
         title: 'Floor Standing',
-        link: 'file:///C:/xampp/htdocs/job/daikin_promotion/pages/sky_air/inverter/floor.html',
+        link: '/daikin_promotion/pages/sky_air/inverter/floor.html',
         img: '../../img/sky_air/inverter/floor.png'
     },
     {
         title: 'Wall Mounted',
-        link: 'file:///C:/xampp/htdocs/job/daikin_promotion/pages/sky_air/inverter/wall.html',
+        link: '/daikin_promotion/pages/sky_air/inverter/wall.html',
         img: '../../img/sky_air/inverter/wall.png'
     },
 ]
