@@ -31,7 +31,7 @@ const data = [
     },
     {
         title: 'VRV',
-        link: '',
+        link: '/daikin_promotion/pages/vrv/index.html',
         img: 'vrv.png',
     },
     {
