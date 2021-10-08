@@ -36,7 +36,7 @@ const data = [
     },
     {
         title: 'Packaged Air Conditioner',
-        link: '',
+        link: '/daikin_promotion/pages/packaged/index.html',
         img: 'packaged.png',
     }
 

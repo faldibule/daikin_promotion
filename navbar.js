@@ -44,7 +44,7 @@ const dropdown = (parent) =>{
     const air_purifier = dropItem('Air Purifier', '/daikin_promotion/pages/air_purifier/index.html')
     const sky_air = dropItem('Sky Air', '/daikin_promotion/pages/sky_air/index.html')
     const vrv = dropItem('VRV', '/daikin_promotion/pages/vrv/index.html')
-    const packaged = dropItem('Packaged Air Conditioner', '/daikin_promotion/pages/single_split/index.html')
+    const packaged = dropItem('Packaged Air Conditioner', '/daikin_promotion/pages/packaged/index.html')
 
     ul.append(single_split, hr1, multi_split, hr2, air_purifier, hr3, sky_air, hr4, vrv, hr5, packaged)
 
