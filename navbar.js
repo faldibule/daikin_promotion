@@ -99,7 +99,7 @@ divLi1.setAttribute('class', 'nav-item')
 const li1A = document.createElement('a')
 li1A.setAttribute('class', 'nav-link')
 li1A.setAttribute('aria-current', 'page')
-li1A.setAttribute('href', '/daikin_promotion/pages/tentang.html')
+li1A.setAttribute('href', '/daikin_promotion/pages/tentang/tentang.html')
 li1A.textContent = 'Tentang';
 divLi1.appendChild(li1A)
 
